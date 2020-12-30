@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="5698" started-at="2020-12-30T06:04:06Z" finished-at="2020-12-30T06:04:11Z">
+    <groups>
+    </groups>
+    <test name="Caiptal Info Smoke Test" duration-ms="5698" started-at="2020-12-30T06:04:06Z" finished-at="2020-12-30T06:04:11Z">
+      <class name="TestModels.TestCapital">
+        <test-method status="PASS" signature="init(org.testng.ITestContext)[pri:0, instance:TestModels.TestCapital@2aafb23c]" name="init" is-config="true" duration-ms="171" started-at="2020-12-30T09:04:06Z" finished-at="2020-12-30T09:04:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1d572e62]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="positiveScenarioTest()[pri:1, instance:TestModels.TestCapital@2aafb23c]" name="positiveScenarioTest" duration-ms="3734" started-at="2020-12-30T09:04:06Z" finished-at="2020-12-30T09:04:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- positiveScenarioTest -->
+        <test-method status="PASS" signature="negativeScenarioTest()[pri:2, instance:TestModels.TestCapital@2aafb23c]" name="negativeScenarioTest" duration-ms="1655" started-at="2020-12-30T09:04:09Z" finished-at="2020-12-30T09:04:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativeScenarioTest -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestModels.TestCapital@2aafb23c]" name="getResult" is-config="true" duration-ms="0" started-at="2020-12-30T09:04:09Z" finished-at="2020-12-30T09:04:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=positiveScenarioTest status=SUCCESS method=TestCapital.positiveScenarioTest()[pri:1, instance:TestModels.TestCapital@2aafb23c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestModels.TestCapital@2aafb23c]" name="getResult" is-config="true" duration-ms="0" started-at="2020-12-30T09:04:11Z" finished-at="2020-12-30T09:04:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=negativeScenarioTest status=SUCCESS method=TestCapital.negativeScenarioTest()[pri:2, instance:TestModels.TestCapital@2aafb23c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="end()[pri:0, instance:TestModels.TestCapital@2aafb23c]" name="end" is-config="true" duration-ms="298" started-at="2020-12-30T09:04:11Z" finished-at="2020-12-30T09:04:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end -->
+      </class> <!-- TestModels.TestCapital -->
+    </test> <!-- Caiptal Info Smoke Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Caiptal Info Smoke Test">
+    <classes>
+      <class name="TestModels.TestCapital"/>
+    </classes>
+  </test> <!-- Caiptal Info Smoke Test -->
+</suite> <!-- Failed suite [Suite] -->
